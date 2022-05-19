@@ -1,0 +1,148 @@
+body{
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #C3E0E5;
+    width: 900px;
+}
+
+.orders{
+    width: 870px;
+}
+
+table{
+    border: 2px solid #2c2c2c ;
+    padding: 10px;
+}
+
+table td{
+    border-bottom: 1px solid #2c2c2c;
+    padding: 5px;
+}
+
+h1{
+    color: lightcoral;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+h2{
+    color: black;
+    font-size: 25px;
+    text-shadow: 2px 1px black;
+}
+
+h3{
+    color: lightblue;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+
+header {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 4px solid black;
+}
+
+header img{
+    float: left;
+    width: 100px;
+    height: 90px;
+}
+
+header h1{
+    margin: left 300px;
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 2px black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.top_menu{
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    color: white;
+}
+
+.top_menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+.top_menu ul li{
+    display: inline-block;
+    width: 150px;
+}
+
+.top_menu ul li:hover{
+    background-color: #0781b2;
+}
+.top_menu ul li a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+main{
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    width: 860px;
+    height: 1250px;
+    background-color: #41729F;
+    margin: auto;
+}
+
+main textarea{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+main form{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main label{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+main li{
+    padding:10px 30px; 
+}
+
+main img{
+    width: 200px;
+    height: 200px;
+}
+
+table{
+    margin: 50px;
+    width: 600px;
+    text-align: center;
+
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    font-weight: bold; 
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    font-size: 10px; 
+    color: white;
+    background:black ;
+}
+
+p{
+    color: darkblue;
+}

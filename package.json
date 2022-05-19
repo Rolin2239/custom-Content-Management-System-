@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "express-session": "*",
+    "express-validator": "^6.14.0",
+    "mongoose": "*",
+    "tinymce": "^6.0.1"
+  },
+  "name": "expresssite",
+  "version": "1.0.0",
+  "description": "My first website using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "Site"
+  ],
+  "author": "Ronglin Liu",
+  "license": "ISC"
+}

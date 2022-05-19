@@ -1,0 +1,21 @@
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+<main>
+  <h1>Photos</h1>
+    <table>
+        <thead>
+          <th>Title</th>
+          <th>Decription</th>
+        </thead>
+          <tbody>
+             <% for(var blog of blogs) {%>
+              <tr>
+                <td><%= blog.title %></td> 
+                <td><%- blog.description %></td>
+                <td><img src="<%= blog.image %>" ></td>
+              </tr>
+            <% }%>
+          </tbody>
+      </table>
+</main>
+<%- include('layouts/footer'); -%>

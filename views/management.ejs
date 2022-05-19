@@ -1,0 +1,29 @@
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+<main class="orders"> 
+    <h4><a href="/logout">logout</a></h4>
+    <table>
+        <thead>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+        </thead>
+        <tbody>
+            <% 
+                for (var blog of blogs) {
+            %>
+            <tr>
+                <td><%= blog.title %></td>
+                <td><%- blog.description %></td>
+                <td><img src="<%= blog.image %>"></td>
+                <td><a href="/delete/<%=blog._id %>">delete</a></td>
+                <td><a href="/edit/<%=blog._id %>">edit</a></td>
+            </tr>        
+            <%   
+            }
+            %> 
+        </tbody>
+    </table>
+    <h4><a href="/form">+ upload new photos</a></h4>
+</main>
+<%- include('layouts/footer'); -%>

@@ -1,0 +1,37 @@
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+<main>
+  <form name="myForm" action="" method="post" onsubmit="event.preventDefault" enctype="multipart/form-data">
+      <h2>Please upload your photography!</h2>
+      <label>Title</label>
+      <input name="title" type="text" id="title" value="<%= blog.title %> "><br><br>
+      <label>Upload your photography</label>
+      <input type="file" name="myImage" id="myImage" accept="image/*" ="<%= blog.image %>"><br><br>
+      <br/><br/>
+      <textarea id="description" name="description" placeholder="Describe your photo"><%= blog.description %></textarea>
+      <br/><br/>
+      <input name="submit" type="submit"  value="Update">
+      <% 
+        if (typeof(errors) != 'undefined')
+        {
+          for (let error of errors)
+          {
+      %>
+            <p> <%= error.msg %></p>
+      <%
+          }
+        }
+      %>
+      
+      <% 
+        if(typeof(description) != 'undefined')
+        { 
+      %>
+            <h2 id="formResult">Successfully published</h2>         
+      <%
+        }
+      %>
+  
+  </form>
+</main>
+<%- include('layouts/footer'); -%>
