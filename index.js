@@ -45,6 +45,8 @@ myapp.get('/', function(req,res){
     })
 });
 
+//post the user's blog
+
 myapp.post('/form', [
     check('title', 'Please input a title').notEmpty(),
     check('description', 'Please input a description').notEmpty()
