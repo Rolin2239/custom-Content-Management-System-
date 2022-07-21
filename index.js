@@ -6,6 +6,7 @@ const session = require('express-session');
 const upload = require('express-fileupload')
 myapp.use(upload());
 
+//mongoDB server connection
 const mongoose = require('mongoose')
 mongoose.connect('mongodb://localhost:27017/outletOrder', {
     useNewUrlParser: true,
