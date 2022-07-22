@@ -7,8 +7,9 @@ This my final project in PROG8020 Wed Design and Development Course.
 This project uses [node](http://nodejs.org), [ejs](https://ejs.co), [express](https://expressjs.com) and MongoDB(https://www.mongodb.com/). Go check them out if you don't have them locally installed.
 
 1.First time run npm install in terminal<br>
-2.next step run node index<br>
-3.go to localhost:8080<br>
+2.Modify the connection to MongoDB
+3.next step run node index<br>
+4.go to localhost:8080<br>
 
 ## Usage
 
