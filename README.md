@@ -8,6 +8,13 @@ This project uses [node](http://nodejs.org), [ejs](https://ejs.co), [express](ht
 
 1.First time run npm install in terminal<br>
 2.Modify the connection to MongoDB
+<div style="text-indent:2em">
+&nbsp In index.js file, before running, modify the connection path to your MongoDB(line9)<br>
+&nbsp const mongoose = require('mongoose')<br>
+&nbsp mongoose.connect('mongodb://YourServer/YourDBName', {<br>
+&nbsp &nbsp useNewUrlParser: true,<br>
+&nbsp &nbsp useUnifiedTopology: true,<br>
+&nbsp })</div>
 3.next step run node index<br>
 4.go to localhost:8080<br>
 
